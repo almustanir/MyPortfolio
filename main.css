@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body{
+    background-color: #7c6f6f;
+}
+
+
+.chatCon {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    position: absolute;
+    width: 80vh;
+    max-width: 37.5rem;
+    top: 50%;
+    left: 50%;
+    border-radius: 12px;
+    transform: translate(-45%, -45%);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-transform: translate(-45%, -45%);
+    -moz-transform: translate(-45%, -45%);
+    -ms-transform: translate(-45%, -45%);
+    -o-transform: translate(-45%, -45%);
+}
+
+
+#question-box{
+    border: none;
+    outline: none;
+    width: 80%;
+    border-bottom: 2px solid#7c6f6f;
+    margin-bottom: 0.5rem;
+}
+
+.chatCon button{
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #7c6f7c;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    margin: 2px 0 2px 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
